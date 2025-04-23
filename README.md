@@ -7,7 +7,7 @@
 
 MedSafeGuard combines AI efficiency with human medical expertise by automatically analyzing patient data, generating treatment recommendations, and streamlining the approval process based on risk level - only requiring physician confirmation for high-risk interventions.
 
-![MedSafeGuard Overview](assets/medsafeguard-overview.png)
+![MedSafeGuard Overview](medsafeguard-overview.svg)
 
 ## 🔍 Overview
 
