@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">MedSafeGuard Workflow</text>
+  
+  <!-- Patient Data Section -->
+  <rect x="50" y="70" width="150" height="80" rx="5" ry="5" fill="#3498db" fill-opacity="0.8"/>
+  <text x="125" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Patient Data</text>
+  <text x="125" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Medical History, Conditions, Medications</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M200 110 L270 110" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="270,110 260,105 260,115" fill="#34495e"/>
+  
+  <!-- AI Analysis Section -->
+  <rect x="270" y="70" width="150" height="80" rx="5" ry="5" fill="#9b59b6" fill-opacity="0.8"/>
+  <text x="345" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">AI Analysis</text>
+  <text x="345" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Treatment Generation</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M420 110 L490 110" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="490,110 480,105 480,115" fill="#34495e"/>
+  
+  <!-- Risk Assessment Section -->
+  <rect x="490" y="70" width="150" height="80" rx="5" ry="5" fill="#e74c3c" fill-opacity="0.8"/>
+  <text x="565" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Risk Assessment</text>
+  <text x="565" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low, Medium, High, Critical</text>
+  
+  <!-- Arrows from Risk Assessment -->
+  <path d="M565 150 L565 190" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="565,190 560,180 570,180" fill="#34495e"/>
+  
+  <!-- Decision Diamond -->
+  <polygon points="565,190 595,220 565,250 535,220" fill="#f1c40f" stroke="#34495e" stroke-width="1"/>
+  <text x="565" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#34495e">High Risk?</text>
+  
+  <!-- Arrow to Auto Approval -->
+  <path d="M535 220 L430 220" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="430,220 440,215 440,225" fill="#34495e"/>
+  <text x="480" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">No</text>
+  
+  <!-- Arrow to Doctor Review -->
+  <path d="M595 220 L700 220" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="700,220 690,215 690,225" fill="#34495e"/>
+  <text x="650" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">Yes</text>
+  
+  <!-- Auto Approval Section -->
+  <rect x="280" y="180" width="150" height="80" rx="5" ry="5" fill="#2ecc71" fill-opacity="0.8"/>
+  <text x="355" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Auto Approval</text>
+  <text x="355" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Low/Medium Risk</text>
+  
+  <!-- Doctor Review Section -->
+  <rect x="700" y="180" width="150" height="80" rx="5" ry="5" fill="#e67e22" fill-opacity="0.8"/>
+  <text x="775" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Doctor Review</text>
+  <text x="775" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">High/Critical Risk</text>
+  
+  <!-- Arrows to Final Section -->
+  <path d="M355 260 L355 300" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="355,300 350,290 360,290" fill="#34495e"/>
+  
+  <path d="M775 260 L775 300 L445 300" stroke="#34495e" stroke-width="2" fill="none"/>
+  <polygon points="445,300 455,295 455,305" fill="#34495e"/>
+  
+  <!-- Treatment Plan Section -->
+  <rect x="270" y="300" width="350" height="80" rx="5" ry="5" fill="#1abc9c" fill-opacity="0.8"/>
+  <text x="445" y="335" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Final Treatment Plan</text>
+  <text x="445" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Documentation, Implementation, and Monitoring</text>
+  
+  <!-- Icons -->
+  <!-- Patient Icon -->
+  <circle cx="85" y="95" r="10" fill="white"/>
+  <circle cx="85" y="80" r="5" fill="white"/>
+  
+  <!-- AI Icon -->
+  <rect x="325" y="85" width="10" height="10" fill="white"/>
+  <rect x="337" y="85" width="10" height="10" fill="white"/>
+  <rect x="349" y="85" width="10" height="10" fill="white"/>
+  <path d="M325 100 L349 100" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Doctor Icon -->
+  <circle cx="745" y="205" r="10" fill="white"/>
+  <path d="M745 195 L745 188 M735 205 L730 200 M755 205 L760 200" stroke="white" stroke-width="2" fill="none"/>
+</svg>
